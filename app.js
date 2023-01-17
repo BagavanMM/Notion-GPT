@@ -93,20 +93,3 @@ async function main() {
   }
   
 main()
-  
-//   getCalloutText()
-//   .then((response) => {
-//       if (response.object === 'block') {
-//           const text = response.callout.text[0].plain_text;
-//           console.log(text);
-//           return generateAction(text)
-//       }
-//   }) .then(async (generateText) => {
-//     const generatedText = await generateAction(generateText)
-//     // rest of your code
-//     console.log(generatedText)
-
-// })
-//   .catch(error => {
-//       console.log("Error: ", error);
-//   });
